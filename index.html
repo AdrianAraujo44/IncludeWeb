@@ -15,6 +15,18 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            #wave {
+    background-image: url("assets/img/wave.png");
+    position: absolute;
+    width: 100%;
+    height: 143px ; 
+    bottom:0px;
+    left:0px;
+    max-height: 600px;
+    /*animation: animate 12s linear infinite;*/
+}
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -33,11 +45,13 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" style="position: relative !important;">
             <div class="container">
                 <div class="masthead-heading text-uppercase">Include</div>
-                <a class="btn btn-primary btn-xl text-uppercase" data-toggle="modal" href="#programacao">horários</a>
+                <!--<a class="btn btn-primary btn-xl text-uppercase" data-toggle="modal" href="#programacao">horários</a>-->
+                <button type="button" class="btn btn-outline-danger btn-xl ">Programação</button>
             </div>
+            <div id="wave"></div>
         </header>
         <!--o que é isso? -->
         <section class="page-section" id ="padrao">
