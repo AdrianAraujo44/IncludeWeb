@@ -34,7 +34,7 @@
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/navbar-logo.svg" alt="" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#padrao">O que isso</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sobre">sobre</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#atividades">Atividades</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Fotos</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#workshop">Workshop</a></li>
@@ -48,20 +48,23 @@
             <div class="container">
                 <div class="masthead-heading text-uppercase">Include</div>
                 <!--<a class="btn btn-primary btn-xl text-uppercase" data-toggle="modal" href="#programacao">horários</a>-->
-                <button type="button" class="btn btn-outline-danger btn-xl ">Programação</button>
+                <button type="button" class="btn btn-outline-danger btn-xl " data-toggle="modal" href="#programacao">Programação</button>
             </div>
             <div id="wave"></div>
         </header>
         <!--o que é isso? -->
-        <section class="page-section" id ="padrao">
+        <section class="page-section" id ="sobre">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">O que isso?</h2>
-                    <h3 class="section-subheading text-muted">
-                        Aqui nos falamos um pouco sobre o que é o include 
-                        Aqui nos falamos um pouco sobre o que é o include 
-                        Aqui nos falamos um pouco sobre o que é o include 
-                        Aqui nos falamos um pouco sobre o que é o include 
+                    <h2 class="section-heading ">Sobre</h2><br>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 ">
+                                    <p>O Include é um evento feito para você que esta ingressando no curso de Ciência da Computação 
+                                        e gostaria de conhecer um pouco mais sobre o Campus e as atividades realizadas pelo seu curso.</p>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -74,19 +77,19 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-comments fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Apresentações</h4>
+                        <p class="text-muted text-justify">Conheça seu curso, seus novos companheiros de turma, saiba quais as entidades acadêmica presentes e quais atividades elas desempenham.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-gamepad fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Dinâmicas</h4>
+                        <p class="text-muted text-justify">Trabalhe em equipe com seus colegas de turma para resolver enigmas e conhecer o campus.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-baby-carriage fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Adote</h4>
+                        <p class="text-muted text-justify">Sente-se preocupado com as cadeiras do primeiro semestre? Escolha um veterano para lhe ajudar nessa nova jornada acadêmica.</p>
                     </div>
                 </div>
             </div>
@@ -326,22 +329,21 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="programacao" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    colocaremos uma tabela aqui
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="modal" tabindex="-1" role="dialog" id="programacao">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Programação</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
+                <div class="modal-body">
+                  <p>tabela</p>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
