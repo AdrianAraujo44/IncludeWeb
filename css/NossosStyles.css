@@ -1,0 +1,21 @@
+/*
+    uma página CSS para podermos alterar o projeto sobrescrevendo o bootstrap
+    sem o risco de alterar  o estilo padão do bootstrap
+*/
+
+
+/*Imagem Main*/
+#wave {
+    background-image: url("../img/wave.png");
+    position: absolute;
+    width: 100%;
+    height: 143px ; 
+    bottom:0px;
+    left:0px;
+    max-height: 600px;
+} 
+
+/*titulos de todas as Sections */
+.titulo {
+    font-family: 'MuseoModerno', cursive !important
+}
