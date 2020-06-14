@@ -82,7 +82,6 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  text-align: left;
 }
 
 p {
@@ -7615,7 +7614,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.9rem !important;
 }
 
 .ml-4,
@@ -8914,7 +8913,7 @@ button.bg-dark:focus {
 
   .mb-lg-4,
 .my-lg-4 {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.7rem !important;
   }
 
   .ml-lg-4,
